@@ -297,7 +297,7 @@
   margin: 0 0 45px 0;
   color: #333;
   font-size: 17px;
-  font-weight: 300;
+  font-weight: 500;
   word-break: keep-all;
 }
 
@@ -698,9 +698,25 @@
     padding: 38px 30px 40px 30px;
     width: 100%;
   }
-  .main_info .txt_box .call_box {
-    padding-top: 25px;
+
+  .main_info .txt_box .tit_box h3 {
+    font-size: 30px;
   }
+
+  .main_info .txt_box ul li span {
+    font-size: 15px;
+  }
+
+  .main_info .txt_box ul li .indent {
+    display: block;
+    padding-top: 5px;
+    text-indent: 68px;
+  }
+
+  .main_info .txt_box .call_box {
+    padding-top: 35px;
+  }
+
   .main_info .root_daum_roughmap .wrap_map {
     height: 300px;
   }
