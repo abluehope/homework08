@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/slick.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css?ver=1.0" />
     <script src="./js/jquery-1.12.4.min.js"></script>
     <script src="./js/slick.min.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="./js/main.js?ver=1.0"></script>
   </head>
   <body>
     <div class="wrap">
@@ -29,6 +29,11 @@
               <li><a href="">고객지원</a></li>
             </ul>
           </nav>
+        </div>
+        <div class="mobile_btn">
+          <button>
+            <span class="blind">모바일 버튼</span>
+          </button>
         </div>
       </header>
       <main>
@@ -75,6 +80,12 @@
             <h2>신제품</h2>
             <span>New Product</span>
           </div>
+          <div class="arrows inner">
+            <div class="arrows_wrap">
+              <i class="xi-angle-left left"></i>
+              <i class="xi-angle-right right"></i>
+            </div>
+          </div>
           <!-- slide -->
           <div class="content inner">
             <div class="product_slide">
@@ -83,113 +94,171 @@
                   src="./images/main_product_01.jpg"
                   alt="아이슬라임 DIY 스퀴시 핑크 사진"
                 />
-                <figcaption>
-                  <strong>아이슬라임 DIY 스퀴시 핑크</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_02.jpg"
                   alt="아이슬라임 DIY 스퀴시 옐로우 사진"
                 />
-                <figcaption>
-                  <strong>아이슬라임 DIY 스퀴시 옐로우</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_03.jpg"
                   alt="아이슬라임 DIY 스퀴시 그린 사진"
                 />
-                <figcaption>
-                  <strong>아이슬라임 DIY 스퀴시 그린</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_04.jpg"
                   alt="아이슬라임 DIY 스퀴시 블루 사진"
                 />
-                <figcaption>
-                  <strong>아이슬라임 DIY 블루 그린</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_05.jpg"
                   alt="롤롤테이프볼 사진"
                 />
-                <figcaption>
-                  <strong>롤롤테이프볼</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_06.jpg"
                   alt="글라스데코 휴리와 친구들 1 사진"
                 />
-                <figcaption>
-                  <strong>글라스데코 휴리와 친구들 1</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_07.jpg"
                   alt="글라스데코 휴리와 친구들 2 사진"
                 />
-                <figcaption>
-                  <strong>글라스데코 휴리와 친구들 2</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_08.jpg"
                   alt="글라스데코 휴리와 친구들 3 사진"
                 />
-                <figcaption>
-                  <strong>글라스데코 휴리와 친구들 3</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_09.jpg"
                   alt="아이클레이 휴리와 친구들 1 사진"
                 />
-                <figcaption>
-                  <strong>아이클레이 휴리와 친구들 1</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_10.jpg"
                   alt="스노우 매직 스노우볼 메이커 사진"
                 />
-                <figcaption>
-                  <strong>스노우 매직 스노우볼 메이커</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_11.jpg"
                   alt="글라스데코 썬데코 휴리와 친구들 사진"
                 />
-                <figcaption>
-                  <strong>글라스데코 썬데코 휴리와 친구들</strong>
-                </figcaption>
               </figure>
               <figure>
                 <img
                   src="./images/main_product_12.jpg"
                   alt="글라스데코 팝아트 대한민국 축구 사진"
                 />
-                <figcaption>
-                  <strong>글라스데코 팝아트 대한민국 축구</strong>
-                </figcaption>
               </figure>
             </div>
-            <div class="arrows">
-              <i class="xi-angle-left left"></i>
-              <i class="xi-angle-right right"></i>
+            <div class="txt_box">
+              <div class="itm on">
+                <strong>아이슬라임 DIY 스퀴시 핑크</strong>
+                <p>
+                  투명한 스퀴시 팩에 아이슬라임 베이스와 액티를 넣고 토핑과
+                  스티커로 꾸미는 나만의 스퀴시
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>아이슬라임 DIY 스퀴시 옐로우</strong>
+                <p>
+                  투명한 스퀴시 팩에 아이슬라임 베이스와 액티를 넣고 토핑과
+                  스티커로 꾸미는 나만의 스퀴시
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>아이슬라임 DIY 스퀴시 그린</strong>
+                <p>
+                  투명한 스퀴시 팩에 아이슬라임 베이스와 액티를 넣고 토핑과
+                  스티커로 꾸미는 나만의 스퀴시
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>아이슬라임 DIY 스퀴시 블루</strong>
+                <p>
+                  투명한 스퀴시 팩에 아이슬라임 베이스와 액티를 넣고 토핑과
+                  스티커로 꾸미는 나만의 스퀴시
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>롤롤 테이프볼</strong>
+                <p>
+                  진주 광이 도는 예쁜 파스텔 색감. 6가지 색상의 다양한 롤롤
+                  테이프를 만나보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>글라스데코 휴리와 친구들 1</strong>
+                <p>
+                  블랙홀 악당들로부터 지구의 색을 지키는 휴리와 친구들
+                  캐릭터들을 글라스데코로 만나보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>글라스데코 휴리와 친구들 2</strong>
+                <p>
+                  블랙홀 악당들로부터 지구의 색을 지키는 휴리와 친구들
+                  캐릭터들을 글라스데코로 만나보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>글라스데코 휴리와 친구들 3</strong>
+                <p>
+                  블랙홀 악당들로부터 지구의 색을 지키는 휴리와 친구들
+                  캐릭터들을 글라스데코로 만나보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>아이클레이 휴리와 친구들 1</strong>
+                <p>
+                  7가지 무지개색의 컬러 구슬을 만드는 호기심 많은 꼬마 청개구리
+                  휴리를 아이클레이로 만들어보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>스노우 매직 스노우볼 메이커</strong>
+                <p>
+                  스노우매직과 스노우볼 메이커로 녹지 않는 눈사람과 눈오리를
+                  만들어보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>글라스데코 썬데코 휴리와 친구들</strong>
+                <p>
+                  크리스마스 선물 포장과 배송을 담당하는 마법의 섬, 벨라랜드.
+                  벨라랜드의 귀여운 캐릭터들을 썬데코로 만나보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
+              <div class="itm">
+                <strong>글라스데코 팝아트 대한민국 축구</strong>
+                <p>
+                  건조 후에도 처음 색상 그대로 유지되는 불투명 글라스데코로
+                  나만의 팝아트 작품을 만들어보세요.
+                </p>
+                <a href="" class="btn">제품 보기</a>
+              </div>
             </div>
           </div>
         </section>
@@ -231,106 +300,159 @@
                 <li><a href="" class="btn">아이폼</a></li>
               </ul>
               <div class="lecture_tab_content">
+                <div class="more">
+                  <a href="">
+                    <span>더보기 <i class="xi-plus-min"></i></span>
+                  </a>
+                </div>
                 <div class="con on">
-                  <div class="more">
-                    <a href="">
-                      <span>더보기 <i class="xi-plus-min"></i></span>
-                    </a>
-                  </div>
-                  <div class="content">
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_i_01.jpg" alt="" />
-                        <figcaption>
-                          <strong>레인보우 케이크 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_i_02.jpg" alt="" />
-                        <figcaption>
-                          <strong>팝콘 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_i_03.jpg" alt="" />
-                        <figcaption>
-                          <strong>[휴리와 친구들] 휴리 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+                  <ul class="content">
+                    <li>
+                      <a href="">
+                        <figure data-title="동영상 강좌">
+                          <img src="./images/main_lecture_i_01.jpg" alt="" />
+                          <figcaption>
+                            <strong>레인보우 케이크 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <figure data-title="사진 강좌">
+                          <img src="./images/main_lecture_i_02.jpg" alt="" />
+                          <figcaption>
+                            <strong>팝콘 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <figure data-title="동영상 강좌">
+                          <img src="./images/main_lecture_i_03.jpg" alt="" />
+                          <figcaption>
+                            <strong>[휴리와 친구들] 휴리 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="con">
-                  <div class="more">
-                    <a href="">
-                      <span>더보기 <i class="xi-plus-min"></i></span>
-                    </a>
-                  </div>
-                  <div class="content">
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_g_01.jpg" alt="" />
-                        <figcaption>
-                          <strong>미녀와야수 조명 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_g_02.jpg" alt="" />
-                        <figcaption>
-                          <strong>글라스데코 팝아트 소품 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_g_03.jpg" alt="" />
-                        <figcaption>
-                          <strong>유리조명 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+                  <ul class="content">
+                    <li>
+                      <a href="">
+                        <figure data-title="동영상 강좌">
+                          <img src="./images/main_lecture_g_01.jpg" alt="" />
+                          <figcaption>
+                            <strong>미녀와야수 조명 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <figure data-title="동영상 강좌">
+                          <img src="./images/main_lecture_g_02.jpg" alt="" />
+                          <figcaption>
+                            <strong>글라스데코 팝아트 소품 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <figure data-title="동영상 강좌">
+                          <img src="./images/main_lecture_g_03.jpg" alt="" />
+                          <figcaption>
+                            <strong>유리조명 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
                 <div class="con">
-                  <div class="more">
-                    <a href="">
-                      <span>더보기 <i class="xi-plus-min"></i></span>
-                    </a>
-                  </div>
-                  <div class="content">
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_f_01.jpg" alt="" />
-                        <figcaption>
-                          <strong>조종사 곰 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_f_02.jpg" alt="" />
-                        <figcaption>
-                          <strong>공작새 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                    <a href="">
-                      <figure>
-                        <img src="./images/main_lecture_f_03.jpg" alt="" />
-                        <figcaption>
-                          <strong>토끼 케이크 만들기</strong>
-                        </figcaption>
-                      </figure>
-                    </a>
-                  </div>
+                  <ul class="content">
+                    <li>
+                      <a href="">
+                        <figure data-title="동영상 강좌">
+                          <img src="./images/main_lecture_f_01.jpg" alt="" />
+                          <figcaption>
+                            <strong>조종사 곰 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <figure data-title="사진 강좌">
+                          <img src="./images/main_lecture_f_02.jpg" alt="" />
+                          <figcaption>
+                            <strong>공작새 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="">
+                        <figure data-title="사진 강좌">
+                          <img src="./images/main_lecture_f_03.jpg" alt="" />
+                          <figcaption>
+                            <strong>토끼 케이크 만들기</strong>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- section 04 : 오시는 길 -->
+        <section class="main_info">
+          <h2 class="blind">오시는 길</h2>
+          <div class="content">
+            <div
+              id="daumRoughmapContainer1688542561235"
+              class="root_daum_roughmap root_daum_roughmap_landing"
+            ></div>
+
+            <script
+              charset="UTF-8"
+              class="daum_roughmap_loader_script"
+              src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"
+            ></script>
+
+            <script charset="UTF-8">
+              new daum.roughmap.Lander({
+                timestamp: "1688542561235",
+                key: "2fexz",
+              }).render();
+            </script>
+          </div>
+          <div class="txt_box">
+            <div class="tit_box">
+              <h3>오시는 길</h3>
+            </div>
+            <ul>
+              <li>
+                <span class="txt_itm">본사위치</span>
+                <span>서울시 강남구 삼성동 113 HS타워 2층</span>
+              </li>
+              <li>
+                <span class="txt_itm">영업시간</span>
+                <span>평일 09:00 ~ 18:00</span>
+                <span class="indent">주말, 공휴일 휴무</span>
+              </li>
+              <li></li>
+            </ul>
+            <div class="call_box">
+              <i class="xi-call"></i
+              ><a href="tel:02-3452-0553" class="tel">02-3452-0553</a>
             </div>
           </div>
         </section>
@@ -367,6 +489,9 @@
           </div>
         </address>
       </footer>
+      <div class="to_top">
+        <i class="xi-arrow-top"></i>
+      </div>
     </div>
   </body>
 </html>
